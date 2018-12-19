@@ -16,7 +16,7 @@
     int(^Block)(int) = ^int(int num){
         return num *muIntNum;
     };
-    
+         
     muIntNum = 4;
     Block(2);
 }
