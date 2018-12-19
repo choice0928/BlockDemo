@@ -11,7 +11,7 @@
 @implementation BlockOneObj
 
 - (void)testMethod {
-    
+       
     __block int muIntNum = 6;
     int(^Block)(int) = ^int(int num){
         return num *muIntNum;
